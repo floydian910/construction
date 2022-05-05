@@ -1,0 +1,46 @@
+.services_content ul{
+    flex-direction: column !important;
+    display: flex !important;
+}
+
+.services_grid{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    align-items: flex-end;
+}
+
+.services h3{
+    font-size: 36px;
+    color: #343a40;
+    text-align: left;
+}
+
+.services_content{
+    /* margin-top: 40px; */
+    padding-right: 30px;
+
+}
+
+.services .white_divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.services .white_div{
+    min-width: 230px;
+    margin-top: 20px;
+}
+
+.services h2{
+    color: orange;
+    text-align: left;
+    font-size: 18px;
+}
+
+.services img{
+    width: 60%;
+    margin-top: 40px;
+}
+
