@@ -32,12 +32,22 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-h1{
+h1 {
   position: relative;
   animation: 1s mymove forwards;
 }
 
+@media only screen and (max-width: 858px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
 @keyframes mymove {
-  from {top: 0px;}
-  to {top: calc(100vh - 320px)}
+  from {
+    top: 0px;
+  }
+  to {
+    top: calc(100vh - 330px);
+  }
 }

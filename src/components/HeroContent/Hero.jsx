@@ -9,14 +9,16 @@ const Hero = ({ language }) => {
           <h1>
             Bring your
             <strong style={{ color: "orange" }}> Dream House</strong>
-            into Reality
+            <span> into Reality</span>
           </h1>
         ) : (
-          <h1> <strong>
-            აქციე შენი <span style={{ color: "orange" }}></span>
-            <span style={{ color: "orange" }}>ოცნების სახლი </span> 
-            რეალობად!
-            </strong> 
+          <h1>
+            {" "}
+            <strong>
+              აქციე შენი <span style={{ color: "orange" }}></span>
+              <span style={{ color: "orange" }}>ოცნების სახლი </span>
+              რეალობად!
+            </strong>
           </h1>
         )}
       </section>
