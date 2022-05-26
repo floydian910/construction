@@ -14,7 +14,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-export default function SwipeableTemporaryDrawer() {
+export default function SwipeableTemporaryDrawer({ language }) {
   const [state, setState] = React.useState({
     top: false,
     left: false,
@@ -99,7 +99,7 @@ export default function SwipeableTemporaryDrawer() {
                 }}
                 to="/"
               >
-                მთავარი
+                {language ? "Home" : "მთავარი"}
               </Link>
               <Link
                 style={{
@@ -109,7 +109,7 @@ export default function SwipeableTemporaryDrawer() {
                 }}
                 to="/about"
               >
-                ჩვენ შესახებ
+                {language ? "About us" : "ჩვენ შესახებ"}
               </Link>
               <Link
                 style={{
@@ -119,7 +119,7 @@ export default function SwipeableTemporaryDrawer() {
                 }}
                 to="/services"
               >
-                სერვისები
+                {language ? "Services" : "სერვისები"}
               </Link>
             </nav>
           </SwipeableDrawer>

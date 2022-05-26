@@ -77,7 +77,7 @@ const Header = ({ language, setLanguage, active }) => {
             />
           </Link>
           <div className="drawer_item">
-            <SwipeableTemporaryDrawer />
+            <SwipeableTemporaryDrawer language={language} />
           </div>
         </nav>
       </div>
